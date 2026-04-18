@@ -1,0 +1,34 @@
+{
+  "metadata": "MongoDB does not use a single database file like SQLite. It runs as a service and stores data across its own file structures. This JSON represents the initial payload.",
+  "users": [
+    {
+      "name": "System Admin",
+      "studentId": "ADMIN123",
+      "email": "admin@school.edu",
+      "role": "admin"
+    },
+    {
+      "name": "Demo Student",
+      "studentId": "S10001",
+      "email": "student@school.edu",
+      "role": "student"
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Alice Johnson",
+      "position": "President",
+      "description": "Experienced leader dedicated to student welfare."
+    },
+    {
+      "name": "Bob Smith",
+      "position": "President",
+      "description": "Focus on improving campus facilities and events."
+    },
+    {
+      "name": "Charlie Davis",
+      "position": "Vice President",
+      "description": "Advocating for better academic resources."
+    }
+  ]
+}
